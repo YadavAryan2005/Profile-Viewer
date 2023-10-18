@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave:wght@300&display=swap');
+body{
+   background-color: rgba(240, 248, 255, 0.345);
+}
+h3{
+    font-size: 200%;
+}
+.main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    column-gap: 15px;
+    justify-content: center;
+}
+
+.container {
+    width: 300px;
+    border: 0.3px solid #87896a64;
+    height: 400px;
+    border-radius: 1pc;
+    box-shadow: 2px 2px 2px #87896a64;
+    align-items: center;
+    overflow: hidden;
+    margin: 20px;
+    background-color: white;
+}
+img{
+    border-radius: 4pc;
+}
+.img{
+    height: 45%;
+    width: 100%;
+    padding-top: 10px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2px;
+}
+p{
+    font-family: 'Mohave', sans-serif;
+   font-weight: bolder;
+}
+.button{
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 2pc;
+}
+.subdiv{
+    padding-top: 0px;
+    padding:25px
+}
+.button{
+    width: 90%;
+    height: 40px;
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    border: 0.8px solid #87896a64;
+    box-shadow: 2px 2px 2px #87896a64;
+    margin-bottom: 20%;
+}
+.button:hover{
+    background-color:rgb(248, 248, 128) ;
+}
+.button:focus{
+    outline: none;
+}
+.subdiv{
+    overflow: hidden;
+}
