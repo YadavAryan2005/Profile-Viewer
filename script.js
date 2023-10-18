@@ -2,7 +2,6 @@ let url = "https://randomuser.me/api/";
 async function abc() {
   let a = await fetch(url);
   let response = await a.json();
-  console.log(response);
   let div = document.createElement("div");
   div.className = "container";
   let div1 = document.createElement("div");
